@@ -1,0 +1,27 @@
+# Python virtual environment
+.venv/
+
+# Django migrations and database
+*.sqlite3
+db.sqlite3
+
+# Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+
+# Django log and translation files
+*.log
+*.pot
+*.mo
+
+# IDE specific files
+.idea/
+.vscode/
+
+# System-specific files
+.DS_Store
+Thumbs.db
+
+# Environment variables (if stored in a .env file)
+.env
